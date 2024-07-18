@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Reglas adicionales para asegurar el color blanco en modo oscuro */
+    @media (prefers-color-scheme: dark) {
+        a {
+            color: white;
+        }
+    }
+  </style>
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Gotham', Arial, sans-serif; font-size: 15px; line-height: 1.5; background-color: #f9f9f9;">
+
+  <table class="container" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 600px; margin: 0 auto; background-color: #ffffff; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+    <tr>
+      <td>
+        <div style="width:100%; height: 100%; padding-top: 3%; padding-bottom: 3%; background-image:url('https://res.cloudinary.com/dargnrewt/image/upload/v1719950675/header_lffwfm.png');background-size:cover;background-repeat:no-repeat;background-position:center">
+          <table style="width: 100%; height: 100%; table-layout: fixed;">
+            <tr>
+              <td style="width: 33%; text-align: left;">
+                <a href="https://restomain.com/" target="_blank">
+                  <!--[if mso]>
+                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://restomain.com/" style="height:56px;v-text-anchor:middle;width:168px;" arcsize="10%" strokecolor="none" fillcolor="#ffffff">
+                    <w:anchorlock/>
+                    <center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">RM Logo</center>
+                  </v:roundrect>
+                  <![endif]-->
+                  <img class="logoRM" src="https://res.cloudinary.com/dqph2qm49/image/upload/v1717527260/restorationMaintenance/logo_zdy3cb.png" alt="RM Logo" style="padding-left: 35%; width: 70%; height: auto; border: none;">
+                </a>
+              </td>
+              <td style="width: 20%;"></td>
+              <td style="width: 48%; text-align: right;">
+                <a class="website" href="https://restomain.com/" target="_blank" style="padding-right: 45%; font-size: 12px; color: white;">Restomain.com</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="block2">
+          <img src="https://res.cloudinary.com/dqph2qm49/image/upload/v1717527260/restorationMaintenance/pic_wclgwc.png" alt="pic RM" style="width: 100%; border: none;">
+        </div>
+
+        <div class="block3" style="margin-top: 50px; padding-left: 14%; padding-right: 14%;">
+          <p class="bodyMail" style="font-size: 17px; color: #5f6266;">Hi {{invitee_name}}</p>
+          <p style="font-size: 17px; color: #5f6266;">The peace of your home should never be disrupted by unexpected water or mold damage. Despite facing such a distressing situation, rest assured, you are not alone. Help is on the way.</p>
+          <p class="bodyMail" style="font-size: 17px; color: #5f6266;">At Restoration Maintenance, we prioritize your health and family's safety, especially when your home is at risk. We're ready to carry out a comprehensive evaluation of the damage and promptly develop a tailored remediation plan for you.</p>
+          <p class="bodyMail" style="font-size: 17px; color: #5f6266;">Your appointment is scheduled as follows:</p>
+        </div>
+
+        <div class="block4" style="background-color: #3CB4E3; color: white; text-align: center; padding-top: 15px; padding-bottom: 5px; margin: 3% 14% 3% 14%; border-radius: 10px;">
+          <span style="color: white !important;">Event Date: {!Event.ActivityDate}, Event Time: {!MID(TEXT(TIMEVALUE(Event.StartDateTime)),0,5)}
+            Event Location: {!Event.Location}</span>
+        </div>
+
+        <div class="block5" style="margin-top: 50px; padding-left: 14%; padding-right: 14%;">
+          <p class="bodyMail" style="font-size: 17px; color: #5f6266;"><span class="blue-text" style="color: #3CB4E3; font-weight: bold;">Turn Frustration into Peace of Mind.</span> Our water and mold restoration services solve your issues and restore your space. We offer quick evaluations to determine damage and develop a custom plan for you.</p>
+          <p class="bodyMail" style="font-size: 17px; color: #5f6266;"><span class="blue-text" style="color: #3CB4E3; font-weight: bold;">Expert Evaluation. Comprehensive Restoration.</span> Our knowledgeable team is equipped to manage any scale of damage, prioritizing your family’s health with strict safety protocols. Every step we take is aimed at making your home safe again.</p>
+          <p class="bodyMail" style="font-size: 17px; color: #5f6266;"><span class="blue-text" style="color: #3CB4E3; font-weight: bold;">Health, Safety, Comfort. Our Promise to You.</span> Understanding the urgency, we're ready to step in. Our dedication to restoring your home’s safety and tranquility is unmatched. We address issues meticulously, ensuring your living space remains uncompromised.</p>
+          <p class="bodyMail" style="font-size: 17px; color: #5f6266;">Peace of mind is close, and we're here to help you achieve it. Your safety and well-being are our top priorities. We look forward to serving you and bringing peace back to your home.</p>
+          <p class="bodyMail" style="font-size: 17px; color: #5f6266;">Warm regards,</p>
+          <p class="bodyMail" style="font-size: 17px; color: #5f6266;">We will see you soon! If you have any questions in the meantime, please contact us at 954-329-1759.</p>
+          <p style="font-size: 17px; color: #5f6266;"><b> Restoration Maintenance Team</b></p><br/>
+        </div>
+
+        <div class="container-footer" style="width:100%; height:auto; background-image:url('https://res.cloudinary.com/dqph2qm49/image/upload/v1717527258/restorationMaintenance/footer_bjutsj.png');background-size:cover;background-repeat:no-repeat;background-position:center">
+          <table style="width: 100%; padding-top: 5%;">
+            <tr>
+              <td style="width: 33%;">
+                <div class="logoRMFooter">
+                  <a href="https://restomain.com/" target="_blank">
+                    <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://restomain.com/" style="height:56px;v-text-anchor:middle;width:168px;" arcsize="10%" strokecolor="none" fillcolor="#ffffff">
+                      <w:anchorlock/>
+                      <center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">RM Logo</center>
+                    </v:roundrect>
+                    <![endif]-->
+                    <img src="https://res.cloudinary.com/dqph2qm49/image/upload/v1717527260/restorationMaintenance/logo_zdy3cb.png" alt="RM Logo" style="padding-left: 35%; width: 70%; height: auto; border: none;">
+                  </a>
+                </div>
+              </td>
+              <td style="width: 33%;"></td>
+              <td style="width: 33%;">
+                <div class="socialMediaLinks" style="position: relative; top: 5%; right: 3%;">
+                  <!--[if mso]>
+                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.instagram.com/restomain/" style="height:30px;v-text-anchor:middle;width:30px;" arcsize="10%" strokecolor="none" fillcolor="#ffffff">
+                    <w:anchorlock/>
+                    <center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">Instagram</center>
+                  </v:roundrect>
+                  <![endif]-->
+                  <a class="socialMedia" href="https://www.instagram.com/restomain/" target="_blank" style="display: inline-block; margin: 0 2%;">
+                    <img src="https://res.cloudinary.com/dqph2qm49/image/upload/v1717763089/restorationMaintenance/instagram_aqfge5.png" alt="Instagram" style="max-width: 25px; max-height: 25px; border: none; ">
+                  </a>
+                  <!--[if mso]>
+                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://x.com/restomain" style="height:30px;v-text-anchor:middle;width:30px;" arcsize="10%" strokecolor="none" fillcolor="#ffffff">
+                    <w:anchorlock/>
+                    <center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">X</center>
+                  </v:roundrect>
+                  <![endif]-->
+                  <a class="socialMedia" href="https://x.com/restomain" target="_blank" style="display: inline-block; margin: 0 2%;">
+                    <img src="https://res.cloudinary.com/dqph2qm49/image/upload/v1717763089/restorationMaintenance/x_kigouh.png" alt="X" style="max-width: 25px; max-height: 25px; border: none; ">
+                  </a>
+                  <!--[if mso]>
+                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.linkedin.com/company/restoration-maintenance" style="height:30px;v-text-anchor:middle;width:30px;" arcsize="10%" strokecolor="none" fillcolor="#ffffff">
+                    <w:anchorlock/>
+                    <center style="color:#ffffff;font-family:sans-serif;font-size:13px;font-weight:bold;">LinkedIn</center>
+                  </v:roundrect>
+                  <![endif]-->
+                  <a class="socialMedia" href="https://www.linkedin.com/company/restoration-maintenance" target="_blank" style="display: inline-block; margin: 0 2%;">
+                    <img src="https://res.cloudinary.com/dqph2qm49/image/upload/v1717763089/restorationMaintenance/in_oycll7.png" alt="LinkedIn" style="max-width: 25px; max-height: 25px; border: none; ">
+                  </a>
+                </div>
+              </td>
+            </tr>
+          </table>
+
+          <div class="tableFooter" style="position: relative; padding-top: 0%; padding-left: 17%; padding-bottom: 3%; width: 100%; color: white; font-size: 12px; font-family: 'Gotham', Arial, sans-serif; line-height: 1.5;">
+            <table border="0" style="width: 100%;">
+              <tr>
+                <td style=" width: 20%; text-align: left;">
+                  <a href="https://restomain.com/mold-remediation/" target="_blank" style="color: white; display: block;">Mold Remediation</a>
+                  <a href="https://restomain.com/water-damage-restoration/" target="_blank" style="color: white; display: block;">Water Damage</a>
+                  <a href="https://restomain.com/commercial-water-mold/" target="_blank" style="color: white; display: block;">Commercial Restoration</a>
+                  <a href="https://restomain.com/service-locations/" target="_blank" style="color: white; display: block;">Service Areas</a>
+                </td>
+                <td style="width: 10%; text-align: left;">
+                  <a href="https://restomain.com/about/" target="_blank" style="color: white; display: block;">About</a>
+                  <a href="https://restomain.com/restomain-blog/" target="_blank" style="color: white; display: block;">Blog</a>
+                  <a href="https://restomain.com/contact/" target="_blank" style="color: white; display: block;">Contact</a>
+                </td>
+                <td style=" width: 40%; text-align: left;">
+                  <span style="color: white; display: block;">4830 NE 12th Ave.</span>
+                  <span style="color: white; display: block;">Oakland Park, Fl</span>
+                  <span style="color: white; display: block;">33334</span>
+                  <span style="color: white; display: block;">954-329-1759</span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        
+          <table style="width: 100%; text-align: center; background-color: #3CB4E3; color: white;">
+            <tr>
+              <td>
+                <p style="margin: 0; padding: 10px 0;">
+                  <a href="https://restomain.com/privacy-policy/" target="_blank" style="color: white;">Policy</a> | 
+                  <a href="https://www.ejemplo2.com" target="_blank" style="color: white;">Term of Use</a>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
